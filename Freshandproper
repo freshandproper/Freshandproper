@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Devyn's Cleaning Services</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f4f6f8;
+color:#333;
+}
+
+header{
+background:#0d1b2a;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:18px;
+opacity:.9;
+}
+
+.call-btn{
+background:#2a9d8f;
+color:white;
+padding:14px 28px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+margin-top:20px;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:50px 20px;
+}
+
+h2{
+margin-bottom:20px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+border-radius:8px;
+}
+
+.review{
+background:white;
+padding:20px;
+border-radius:8px;
+margin-bottom:15px;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+form{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+margin-bottom:12px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+background:#2a9d8f;
+color:white;
+border:none;
+padding:14px;
+border-radius:6px;
+font-weight:bold;
+cursor:pointer;
+width:100%;
+}
+
+footer{
+background:#0d1b2a;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Devyn's Cleaning Services</h1>
+
+<p>Professional Residential & Apartment Turnover Cleaning</p>
+
+<a class="call-btn" href="tel:1234567890">Call For A Quote</a>
+
+</header>
+
+
+<section>
+
+<h2>About</h2>
+
+<p>
+Hi, I'm Devyn. I provide reliable, detail-focused cleaning services for homeowners,
+landlords, and property managers. My focus is simple — leave every space spotless
+and ready for the next stage.
+</p>
+
+</section>
+
+
+<section>
+
+<h2>Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Standard Cleaning</h3>
+<p>
+Dusting, vacuuming, kitchen wipe-down, bathroom sanitation,
+and routine maintenance cleaning.
+</p>
+</div>
+
+<div class="card">
+<h3>Deep Cleaning</h3>
+<p>
+Baseboards, heavy buildup removal, appliance cleaning,
+and full detailed sanitation.
+</p>
+</div>
+
+<div class="card">
+<h3>Move Out / Turnover Cleaning</h3>
+<p>
+Full apartment or house turnover cleaning ready
+for the next tenant or listing.
+</p>
+</div>
+
+<div class="card">
+<h3>Property Manager Services</h3>
+<p>
+Fast turnover cleaning for apartment complexes,
+rentals, and property managers.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Before & After</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
+<img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac">
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea">
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Reviews</h2>
+
+<div class="review">
+⭐️⭐️⭐️⭐️⭐️  
+"Extremely detailed cleaning. The place looked better than when we moved in."
+</div>
+
+<div class="review">
+⭐️⭐️⭐️⭐️⭐️  
+"Reliable and easy to schedule. Great for apartment turnover cleaning."
+</div>
+
+<div class="review">
+⭐️⭐️⭐️⭐️⭐️  
+"Highly recommend. Professional and fast."
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Request A Quote</h2>
+
+<form>
+
+<input type="text" placeholder="Name">
+
+<input type="email" placeholder="Email">
+
+<input type="tel" placeholder="Phone">
+
+<textarea rows="4" placeholder="Tell me about your cleaning job"></textarea>
+
+<button type="submit">Request Quote</button>
+
+</form>
+
+</section>
+
+
+<section>
+
+<h2>Service Area</h2>
+
+<p>
+Serving homeowners, landlords, and apartment complexes.
+Message or call for availability and scheduling.
+</p>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Devyn's Cleaning Services</p>
+
+</footer>
+
+<
